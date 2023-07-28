@@ -203,15 +203,16 @@ figure>img {
 }
 
 footer {
-    gap: 300px;
+    gap: 200px;
     padding: 100px;
     margin-top: 100px;
     background-color: #151414;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
-
+.column{
+    width: 50%;
+}
 .column>h2 {
     color: #F8F8F8;
     font-family: Work Sans;
