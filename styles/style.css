@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    background-color: transparent;
+}
+nav>ul{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+nav>ul li{
+    list-style: none;
+    margin-right:50px ;
+}
+nav>ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #FFF;
+
+    
+}
+
+.content {
+    padding: 120px 200px 220px 750px;
+    text-align: right;
+    color: #FFF;
+    text-align: right;
+    font-family: Work Sans;
+
+}
+
+.content>h2 {
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.content>p {
+    margin-bottom: 24px;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.content>button {
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    background: #FFF;
+    color: #005FAC;
+    text-align: right;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 150px;
+}
+
+.profile-content {
+    margin-top: 80px;
+    padding: 50px;
+}
+
+.profile-content>h2 {
+    color: #151414;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+
+}
+
+.profile-content>p {
+    color: #444343;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+.profile-content>ul li {
+    margin-left: 10px;
+    color: #444343;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+figure>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.my-plan {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.my-plans-content>h2 {
+    text-align: center;
+    color: #151414;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 100px;
+    color: #151414;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.my-plans-content>p {
+    text-align: center;
+    color: #737272;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.description {
+    margin-top: 100px;
+    border-radius: 8px;
+    background-image: url('../images/gradient1.png'), url('../images/watch.png');
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover;
+}
+
+.description>h2 {
+    padding: 60px 500px 10px 60px;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.description>button {
+    margin: 20px 50px;
+    padding: 20px 50px;
+    border-radius: 8px;
+    border: none;
+    color: #005FAC;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+footer {
+    gap: 300px;
+    padding: 100px;
+    margin-top: 100px;
+    background-color: #151414;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.column>h2 {
+    color: #F8F8F8;
+    font-family: Work Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.column>p {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.social-media {
+    gap:20px
+}
+
+.column>input {
+    background-color: #151414;
+    color: #FFF;
+    border-radius: 8px;
+    padding: 20px;
+    width:100%;
+    border: 1px solid;
+    margin-bottom: 20px;
+}
+
+.column button {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 8px;
+    border: none;
+    padding: 15px 20px;
+}
